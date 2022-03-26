@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+   <nav>
+    <li class = "navClass"> <a href = https://wvcs.github.io/index-nithilangh/> HOME </a></li>
+  <li class = "navClass"> <a href = > </a> </li>
+  </nav>
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
+  <div class = "wrapper">
+  <div class = "A"> <center> Best. Food. Ever. When I eat again, it'll be here. "Mrs. Newman"</center></div>
+    <div class = "B">Head Chef? <center> Tina Ziegler </center> </div>
+    <div class = "C"> <center> Location </center> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.392433345973!2d-117.15022938397063!3d32.967046781577096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbf82069d90af3%3A0xf05fcc8f2695ae50!2s13500%20Wolverine%20Way%2C%20San%20Diego%2C%20CA%2092129!5e0!3m2!1sen!2sus!4v1648277571393!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+    <div class = "D"> <center> Menu </center>  <center> 3 Course Dinner: $125 </center>  <center> 5 Course Dinner: $170 </center> <center> Dessert Variety: $35 </center> </div>
+<div class = "E"><center>Why Eat Here </center> Delicious family dinners at affordable low prices and near your home.<center> </center></div>
+<div class = "F"> <center> Floor Manager </center>  <center> Mr. Glover </center> </div>
+<div class = "G"><center> Sou Chef </center> <center> Mrs. Parker</center> </div>
+</div>
+</body>
+</html>
+
+<style> 
+body {
+  background-color: antiquewhite;
+}
+
+.wrapper {
+  display: grid;
+  height: 90vh;
+  grid-template: 
+      "A B C" auto
+      "D E F"
+      "G H I";
+    grid-template-columns: 10% 70% 10%; 
+  grid-row-gap: 5px;
+  grid-column-gap: 5%;
+  color: black;
+}
+div {
+  background-color: antiquewhite;
+  border: dashed 2px black;
+  border-radius: 15px;
+}
+
+.A {
+  grid-column: 1 / 4;
+  font-size: 30px;
+}
+
+.E {
+  grid-row-start: 3;
+  grid-column-start: 3;
+  grid-row-end: 5;
+  grid-column-end: 3;
+  font-size: 30px;
+}
+
+.F {
+  text-align: center;
+  font-size: 30px;
+}
+
+.G {
+  grid-row: 3 / 5;
+  text-align: center;
+  font-size: 30px;
+}
+
+.B {
+  text-align: center;
+  font-size: 30px;
+}
+
+.D {
+  test-align: center;
+  font-size 30px;
+}
+
+
+.C {
+  grid-area: 2 / 2 / 5 / 2;
+  font-size: 30px;
+}  /* row line / column line / end row / end column */
+nav {
+  list-style-type: none;
+  position: fixed;
+  color: black;
+  background-color: black;
+  width: 100%;
+  height: 10%;
+  left: 0;
+  top: 0;
+}
+
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.navClass {
+  display: inline;
+  float: left;
+  color: black;
+  font-size: 150%;
+  padding: 10px;
+}
+
+a:hover {
+  color: lime;
+}
+
+z:hover {
+  font-size: 40px;
+  color: gold;
+}
+
+x:hover {
+  font-size: 40px;
+  color: gold;
+}
+
+y:hover {
+  font-size: 40px;
+  color: gold;
+}
+</style>
